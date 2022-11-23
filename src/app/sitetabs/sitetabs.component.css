@@ -1,0 +1,321 @@
+/* .horizontaltabs {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  position: absolute;
+  width: 1216px;
+  height: 32px;
+  left: 112px;
+  top: 104px;
+  border-bottom: 1px solid #eaecf0;
+}
+
+.tabs2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 425px;
+  height: 32px;
+}
+
+._tabbuttonbase {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 4px 10px;
+  gap: 8px;
+  width: 100px;
+  height: 32px;
+  border-bottom: 2px solid #175cd3;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: inherit;
+}
+
+.text {
+  width: 55px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #175cd3;
+}
+
+.badge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2px 8px;
+  width: 39px;
+  height: 20px;
+  background: #eff8ff;
+  mix-blend-mode: multiply;
+  border-radius: 16px;
+}
+
+.text2 {
+  width: 25px;
+  height: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: #175cd3;
+}
+
+._tabbuttonbase2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 4px 10px;
+  gap: 8px;
+  width: 100px;
+  height: 32px;
+  border-style: none;
+  background-color: inherit;
+}
+
+.text3 {
+  width: 57px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #667085;
+}
+
+.badge2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2px 8px;
+  width: 39px;
+  height: 20px;
+  background: #f2f4f7;
+  mix-blend-mode: multiply;
+  border-radius: 16px;
+}
+
+.text4 {
+  width: 25px;
+  height: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: #344054;
+}
+
+._tabbuttonbase3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 4px 10px;
+  gap: 8px;
+  width:100px;
+  height: 32px;
+  border-style: none;
+  background-color: inherit;
+}
+
+.text5 {
+  width: 58px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #667085;
+}
+
+.badge3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2px 8px;
+  width: 39px;
+  height: 20px;
+  background: #f2f4f7;
+  mix-blend-mode: multiply;
+  border-radius: 16px;
+}
+
+.text6 {
+  width: 25px;
+  height: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: #344054;
+}
+
+._tabbuttonbase4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 4px 11px;
+  gap: 8px;
+  width: 100px;
+  height: 32px;
+  border-style: none;
+  background-color: inherit;
+}
+
+.text7 {
+  width: 58px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #667085;
+}
+
+._tabbuttonbase5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 4px 11px;
+  gap: 8px;
+  width: 100px;
+  height: 32px;
+  border-style: none;
+  background-color: inherit;
+}
+
+.text8 {
+  width: 58px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #667085;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+.mat-tab-group{
+  position: absolute;
+  width: 1216px;
+  left: 80px;
+  top: 85px;
+  }
+
+  ::ng-deep .mat-tab-label{
+    min-width: 115px !important;
+    padding: 0 !important;
+  }
+
+  ::ng-deep .mat-tab-label-active{
+    color: #175CD3;
+    opacity: 1 !important;
+  }
+
+  ::ng-deep .mat-ink-bar{
+    background-color: #175CD3 !important;
+    transition: 500ms cubic-bezier(0.35, 0, 0.25, 1);
+  }
+
+  ::ng-deep .mat-badge-content{
+    right: -20px !important;
+    top: -3px !important;
+    background: #f0f9ff !important;
+    color:#175CD3 !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    width: 44px !important;
+    height: 24px !important;
+    line-height: 23px !important;
+    border-radius: 20px !important;
+  }
+
+  ::ng-deep .mat-badge{
+    padding-right: 30px;
+  } */
+
+
+nav {
+  position: absolute;
+  width: 1217px;
+  left: 110px;
+  top: 85px;
+}
+
+.active-link {
+  border-bottom: 2.2px solid #175CD3 !important;
+  opacity: 1 !important;
+  color: #175CD3;
+}
+
+.sitename {
+  font-weight: 550;
+}
+
+.mat-tab-link {
+  height: 40px;
+  padding: 0 24px;
+  cursor: pointer;
+  box-sizing: border-box;
+  opacity: 0.8;
+  min-width: 125px;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  vertical-align: top;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+}
+
+
+::ng-deep .mat-badge-content {
+  right: -20px !important;
+  top: -3px !important;
+  background: #f0f9ff !important;
+  color: #175CD3 !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  width: 44px !important;
+  height: 24px !important;
+  line-height: 23px !important;
+  border-radius: 20px !important;
+  opacity: 1 !important;
+}
+
+::ng-deep .mat-badge {
+  padding-right: 30px;
+}
