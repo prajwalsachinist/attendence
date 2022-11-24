@@ -34,23 +34,6 @@
       </div>
       <div id="filtersbar" class="filtersbar">
         <div id="content2" class="content2">
-          <!-- <button id="buttongroup" class="buttongroup">
-            <button id="_buttongroupbase" class="_buttongroupbase">
-              <div id="text7" class="text7">View all</div>
-            </button>
-            <button id="_buttongroupbase2" class="_buttongroupbase2">
-              <div id="text8" class="text8">E&C</div>
-            </button>
-            <button id="_buttongroupbase3" class="_buttongroupbase3">
-              <div id="text9" class="text9">MQC</div>
-            </button>
-            <button id="_buttongroupbase4" class="_buttongroupbase4">
-              <div id="text10" class="text10">CCA</div>
-            </button>
-            <button id="_buttongroupbase5" class="_buttongroupbase5">
-              <div id="text11" class="text11">EHCS</div>
-            </button>
-          </button> -->
           <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
             <mat-button-toggle value="bold"><div class="mattext">View All</div></mat-button-toggle>
             <mat-button-toggle value="italic"><div class="mattext">E&C</div></mat-button-toggle>
@@ -64,13 +47,6 @@
               <div id="inputwithlabel" class="inputwithlabel">
                 <input type="text" id="input3" class="input3" placeholder="Search">
                   <div id="content3" class="content3">
-                    <!-- <img
-                      id="search-lg"
-                      class="search-lg"
-                      src="assets/searchicon.png"
-                    /> -->
-
-                    <!-- <div id="text12" class="text12">Search</div> -->
                   </div>
               </div>
             </div>
@@ -591,8 +567,8 @@
           </div>
           <div id="frame3" class="frame3">
             <div id="dropdown18" class="dropdown18">
-              <button id="button9" class="button9">
-                <div id="text76" class="text76">Curning</div>
+              <button id="button9" class="button9" (click)="OpenPopup()">
+                <div id="text76" class="text76">Activity</div>
                 <img
                   id="chevron-down17"
                   class="chevron-down17"

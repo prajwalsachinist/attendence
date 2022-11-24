@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { ActivityComponent } from '../modal/activity/activity.component';
 
 @Component({
   selector: 'app-section',
@@ -7,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SectionComponent implements OnInit {
 
-  constructor() { }
+  constructor(private matdialog:MatDialog) { }
 
   ngOnInit(): void {
     
@@ -21,5 +23,11 @@ export class SectionComponent implements OnInit {
     this.status = this.toggle ? "Approve" : "Approved";
 }
   
+OpenPopup(){
+this.matdialog.open(ActivityComponent,{width:'500px',height:'400px',enterAnimationDuration:'300ms',exitAnimationDuration:'300ms'});
+}
+
   }
+
+
 

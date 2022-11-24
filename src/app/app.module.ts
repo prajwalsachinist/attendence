@@ -15,7 +15,10 @@ import {MatBadgeModule} from '@angular/material/badge';
 import { Section2Component } from './section2/section2.component';
 import { Section3Component } from './section3/section3.component';
 import { Section4Component } from './section4/section4.component';
-import { Section5Component } from './section5/section5.component'; 
+import { Section5Component } from './section5/section5.component';
+import { ActivityComponent } from './modal/activity/activity.component'; 
+import{MatDialogModule} from '@angular/material/dialog';
+import{MatSelectModule} from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,8 @@ import { Section5Component } from './section5/section5.component';
     Section2Component,
     Section3Component,
     Section4Component,
-    Section5Component
+    Section5Component,
+    ActivityComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +40,10 @@ import { Section5Component } from './section5/section5.component';
     MatButtonModule,
     MatFormFieldModule,
     MatTabsModule,
-    MatBadgeModule
+    MatBadgeModule,
+    MatSelectModule,
+    MatDialogModule
+    
     
   ],
   providers: [],
